@@ -4,7 +4,7 @@ import time, urllib.request
 
 import os
 
-PATH = r"/Users/dakshvaryani/Desktop/instagram"
+PATH = 
 driver = webdriver.Chrome(PATH)
 
 driver.get("https://www.instagram.com/")
@@ -15,8 +15,8 @@ username = driver.find_element_by_css_selector("input[name='username']")
 password = driver.find_element_by_css_selector("input[name='password']")
 username.clear()
 password.clear()
-username.send_keys("dakshvaryani98@gmail.com")
-password.send_keys("Mzc:EU7D4y8@C<z")
+username.send_keys("")
+password.send_keys("")
 login = driver.find_element_by_css_selector("button[type='submit']").click()
 
 # save your login info?
